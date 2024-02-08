@@ -32,7 +32,7 @@ export default function Register() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <Box sx={{ width: '100%', maxWidth: 280, background: "white", padding: 10,paddingTop:3, borderRadius: 3 }}>
+      <Box sx={{ width: '100%', maxWidth: 280, background: "black", padding: 10,paddingTop:3, borderRadius: 3}}>
         <Typography variant="h1" color="primary" fontSize={40} paddingBottom={2} gutterBottom>
           RegisterForm
         </Typography>
@@ -46,6 +46,7 @@ export default function Register() {
           size='small'
           sx={{ marginBottom: 2 }}
           onChange={handleChange}
+          className="textfield" InputLabelProps={{className: 'textfield'}}
         />
 
         <TextField
@@ -59,6 +60,7 @@ export default function Register() {
           size='small'
           sx={{ marginBottom: 2 }}
           onChange={handleChange}
+          className="textfield" InputLabelProps={{className: 'textfield'}}
         />
 
         <TextField
@@ -72,6 +74,7 @@ export default function Register() {
           size='small'
           sx={{ marginBottom: 2 }}
           onChange={handleChange}
+          className="textfield" InputLabelProps={{className: 'textfield'}}
         />
 
         <TextField
@@ -85,10 +88,11 @@ export default function Register() {
           size='small'
           sx={{ marginBottom: 2 }}
           onChange={handleChange}
+          className="textfield" InputLabelProps={{className: 'textfield'}}
         />
         <Box sx={{ textAlign: 'left', marginBottom: 2 }}>
           <Checkbox {...label} checked />
-          <Typography variant="caption" color="black" gutterBottom>
+          <Typography variant="caption" color="white" gutterBottom>
             Accept Terms and Conditions
           </Typography>
         </Box>
