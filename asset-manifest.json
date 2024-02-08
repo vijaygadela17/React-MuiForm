@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/React-MuiForm/static/css/main.67778fd3.css",
-    "main.js": "/React-MuiForm/static/js/main.608cd14c.js",
+    "main.js": "/React-MuiForm/static/js/main.d9e5a8e5.js",
     "static/js/592.454b5ca1.chunk.js": "/React-MuiForm/static/js/592.454b5ca1.chunk.js",
     "static/media/logo.svg": "/React-MuiForm/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/React-MuiForm/index.html",
     "main.67778fd3.css.map": "/React-MuiForm/static/css/main.67778fd3.css.map",
-    "main.608cd14c.js.map": "/React-MuiForm/static/js/main.608cd14c.js.map",
+    "main.d9e5a8e5.js.map": "/React-MuiForm/static/js/main.d9e5a8e5.js.map",
     "592.454b5ca1.chunk.js.map": "/React-MuiForm/static/js/592.454b5ca1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.67778fd3.css",
-    "static/js/main.608cd14c.js"
+    "static/js/main.d9e5a8e5.js"
   ]
 }
