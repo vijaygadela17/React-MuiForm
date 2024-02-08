@@ -44,7 +44,7 @@ export default function Register() {
           defaultValue=""
           fullWidth
           size='small'
-          sx={{ marginBottom: 2 }}
+          sx={{ marginBottom: 2, input: { color: 'white' } }}
           onChange={handleChange}
           className="textfield" InputLabelProps={{className: 'textfield'}}
         />
@@ -58,7 +58,7 @@ export default function Register() {
           type='email'
           fullWidth
           size='small'
-          sx={{ marginBottom: 2 }}
+          sx={{ marginBottom: 2, input: { color: 'white' } }}
           onChange={handleChange}
           className="textfield" InputLabelProps={{className: 'textfield'}}
         />
@@ -72,7 +72,7 @@ export default function Register() {
           type='password'
           fullWidth
           size='small'
-          sx={{ marginBottom: 2 }}
+          sx={{ marginBottom: 2,input: { color: 'white' } }}
           onChange={handleChange}
           className="textfield" InputLabelProps={{className: 'textfield'}}
         />
@@ -86,7 +86,7 @@ export default function Register() {
           type='password'
           fullWidth
           size='small'
-          sx={{ marginBottom: 2 }}
+          sx={{ marginBottom: 2, input: { color: 'white' } }}
           onChange={handleChange}
           className="textfield" InputLabelProps={{className: 'textfield'}}
         />
